@@ -1,0 +1,50 @@
+body{
+    background-color: red;
+    margin: 0px;
+    padding: 0px;
+}
+header{
+    font-size: 40px;
+    text-align: center;
+}
+hr{
+    border-color: black;
+}
+.box{
+    width: 450px;
+    height: 250px;
+    margin: 20px;
+    background-color: white;
+    display: inline-block;
+    position: relative;
+    top: 40px;
+    border: 1px solid black;
+}
+.boxh{
+    margin-top: 25px;
+}
+.innerbox{
+    width: 450px;
+    height: 215px;
+    margin-top: 30px;
+    position: fixed;
+}
+#drDoom{
+    width: 200px;
+    height: 200px;
+    position: relative;
+    top: 10px;
+    left: 575px;
+}
+
+#playerbox{
+    left: 0px;
+}
+#resultbox{
+    width: 500px;
+    height: 50px;
+    background-color: white;
+    border: 1px solid black;
+    margin-top: 50px;
+    margin-left: 31%;
+}

@@ -1,0 +1,76 @@
+body{
+    background-color: #FFFFFF;
+    padding: 0px;
+    margin: 0px;
+}
+header{
+    width: 100%;
+    height: 80px;
+    background-color: #F7F7F7;
+    margin-top: -10px;
+    margin-left: 0px;
+    padding: 0px;
+}
+hr{
+    margin-top: 0px;
+    border-top: 3px solid #f4f4f4;
+}
+#c9pic{
+    margin-top: 15px;
+    margin-left: 5px;
+}
+#gitpic{
+    margin-top: -400px;
+    margin-left: 950px;
+}
+#loginBox{
+    width: 500px;
+    height: 300px;
+    border: 1px solid #D9D9D9;
+    background-color: #FFFFFF;
+    border-radius: 1px;
+    font-size: 1.8em;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 100px;
+    font-family: monospace sans-serif;
+    color: #32414B;
+    text-align: center;
+}
+#bottomlg{
+    width: 100%;
+    height: 80px;
+    background-color: #F7F7F7;
+    margin-top: 55px;
+}
+#bottompic{
+    margin-top: 20px;
+}
+#textlg{
+    margin-top: 10px
+}
+#unem{
+    width: 80%;
+    height: 35px;
+    margin-top: 30px;
+}
+#pass{
+    width: 80%;
+    height: 35px;
+    margin-top: 10px;
+}
+#sign{
+    width: 80%;
+    height: 35px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+    background-color: #333333;
+    color: white;
+    font-size: 20px;
+    text-align: center;
+}
+#forgot{
+    font-size: 16px;
+    margin-left: -100px;
+}

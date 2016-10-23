@@ -1,0 +1,22 @@
+header{
+    background-color: orange;
+    padding: 0px;
+    margin-top: -90px;
+    width: 1366px;
+    height: 100px;
+    margin-left: -8px;
+    position: absolute;
+    text-align: center;
+
+}
+#mh{
+    font-size: 50px;
+    width: 1366px;
+    height: 100px;
+}
+#map {
+    width: 400px;
+    height: 400px;
+    background-color: #CCC;
+    /*margin-top: 200px;*/
+}

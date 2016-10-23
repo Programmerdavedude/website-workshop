@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+	<head>
+    	<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    	<script type="text/javascript">
+    		
+    		
+	    	$(function(){
+	    		// slide function
+	    		$("#frog").click(function() {
+					$("#frog").animate({left: "200px"}, 500);
+				});
+				$("#dog").click(function(){
+					$("#dog").hide(500);
+	    		});
+	    		$("#cat").click(function() {
+	    		    $("#cat").slideUp(500);
+	    		});
+	    	});
+			
+    	</script>
+    	<style type="text/css">
+    		#frog{
+    			width: 100px;
+    			height: 100px;
+    			background-color: red;
+    			position: relative;
+    			left: 20px;
+    		}
+    		#dog{
+    			width: 140px;
+    			height: 140px;
+    			background-color: blue;
+    			border-radius: 200px 200px 200px 200px;
+				-moz-border-radius: 200px 200px 200px 200px;
+				-webkit-border-radius: 200px 200px 200px 200px;
+				border: 0px solid #000000;
+    		}
+    		#cat{
+    			width: 150px;
+    			height: 100px;
+    			background-color: green;
+    		}
+    		#hat{
+    			width: 140px;
+    			height: 165px;
+    		}
+    		body{
+    			background-color: gray;
+    		}
+    	</style>
+    	<title>I hate JS!</title>
+    </head>
+  
+  	<body>
+    	<ul>
+      		<h2>Programming Languages</h2>
+      		<li>Python</li>
+      		<li>Javascript</li>
+      		<li>C++</li>
+		    <li>C#</li>
+		    <li>ruby</li>
+    	</ul>
+    	<ol>
+      		<h2>Top 3 Best Animations</h2>
+      		<h4><li>Animate</li></h4>
+			<div id="frog"></div>
+      		<div id="hat"><h4>
+      			<li>Hide</li></h4>
+      			<div id="dog"></div>
+      		</div>
+      		<h4><li>Slide Up</li></h4>
+      		<div id="cat"></div>
+    	
+    	</ol>
+    	
+  	</body>
+
+</html>
