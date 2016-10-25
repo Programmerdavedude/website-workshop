@@ -4,10 +4,10 @@ function playerplace(boxId){
     var player2= "O";
     if(playerturn < 1){
         document.getElementById(boxId).innerHTML = player2;
-        document.onclick (playerturn++);
+        playerturn++;
     }
     if(playerturn == 1){
         document.getElementById(boxId).innerHTML = player1;
-        document.onclick (playerturn++);
+        playerturn++;
     }
 }
