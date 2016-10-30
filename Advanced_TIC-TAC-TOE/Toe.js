@@ -1,6 +1,9 @@
 var playerturn = 2;
 var player1score = 0;
 var player2score = 0;
+function Reset(){
+    document.getElementsByClassName('box').innerHTML = "";
+}
 function WinCheck(){
     var UL = document.getElementById("upperLeft").innerHTML;
     var UM = document.getElementById("upperMid").innerHTML;
@@ -16,14 +19,17 @@ function WinCheck(){
     BL == "O" && BM == "O" && BR == "O" || UL == "O" && ML == "O" && BL == "O" ||
     UM == "O" && MM == "O" && BM == "O" || UR == "O" && MR == "O" && BR == "O" ||
     UL == "O" && MM == "O" && BR == "O" || UR == "O" && MM == "O" && BL == "O"){
+        Reset();
         alert("O has Won");
         player2score++;
+
     }
     //check if X wins
     if(UL == "X" && UM == "X" && UR == "X" || ML == "X" && MM == "X" && MR == "X" ||
     BL == "X" && BM == "X" && BR == "X" || UL == "X" && ML == "X" && BL == "X" ||
     UM == "X" && MM == "X" && BM == "X" || UR == "X" && MR == "X" && BR == "X" ||
     UL == "X" && MM == "X" && BR == "X" || UR == "X" && MM == "X" && BL == "X"){
+        Reset();
         alert("X has Won");
         player1score++;
     }
