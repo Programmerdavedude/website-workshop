@@ -1,6 +1,17 @@
 var playerturn = 2;
 var player1score = 0;
 var player2score = 0;
+var j = 0;
+function drawCheck(){
+    for(i=0; i<9;i++){
+        if(document.getElementsByClassName('box')[i].innerHTML != ""){
+            j++;
+            if(j == 9){
+                Reset("n");
+            }
+        }
+    }
+}
 function Reset(win){
     for(i=0;i<9;i++)
         document.getElementsByClassName('box')[i].innerHTML = "";
@@ -9,6 +20,9 @@ function Reset(win){
         }
         if(win == "o"){
             document.getElementById("innero").innerHTML = player2score;
+        }
+        if(win == "n"){
+            alert("It Was a Draw");
         }
 }
 function WinCheck(){
@@ -53,6 +67,7 @@ function playerplace(boxId){
             document.getElementById(boxId).innerHTML = player1;
             playerturn = 0;
         }
+        drawCheck();
         WinCheck();
     }
 }
