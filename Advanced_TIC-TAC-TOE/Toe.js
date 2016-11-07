@@ -1,9 +1,9 @@
 var playerturn = 2;
 var player1score = 0;
 var player2score = 0;
-var j = 0;
+
 function drawCheck(){
-    for(i=0; i<9;i++){
+    for(i=0, j=0; i<9;i++){
         if(document.getElementsByClassName('box')[i].innerHTML != ""){
             j++;
             if(j == 9){
@@ -67,7 +67,7 @@ function playerplace(boxId){
             document.getElementById(boxId).innerHTML = player1;
             playerturn = 0;
         }
-        drawCheck();
         WinCheck();
+        drawCheck();
     }
 }
