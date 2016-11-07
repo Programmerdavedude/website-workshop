@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="CompTac.css" type="text/css" />
+        <script type="text/javascript" src="CompToe.js"></script>
+    </head>
+    
+    <body>
+        <div id="PlayBoard"></div>
+        <div id=upperboxs>
+            <div id="upperLeft" class="box topBox" onclick="playerplace(this.id);"></div>
+            <div id="upperMid" class="box topBox" onclick="playerplace(this.id);"></div>
+            <div id="upperRight" class="box topBox" onclick="playerplace(this.id);"></div>
+        </div>
+        <div id="middleboxs">
+            <div id="midLeft" class="box cenbox" onclick="playerplace(this.id);"></div>
+            <div id="midMid" class="box cenbox" onclick="playerplace(this.id);"></div>
+            <div id="midRight" class="box cenbox" onclick="playerplace(this.id);"></div>
+        </div>
+        <div id="bottomboxs">
+            <div id="bottomLeft" class="box" onclick="playerplace(this.id);"></div>
+            <div id="bottomMid" class="box" onclick="playerplace(this.id);"></div>
+            <div id="bottomRight" class="box" onclick="playerplace(this.id);"></div>
+        </div>
+        <div id="scoreboxParent">
+            <div id="scoreX" class="score">
+                Player
+                <div id="innerx" class="innerscore">0</div>
+            </div>
+            
+            <div id="scoreO" class="score">
+                Computer
+                <div id="innero" class="innerscore">0</div>    
+            </div>
+        </div>
+    </body>
+</html>
