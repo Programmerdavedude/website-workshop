@@ -53,6 +53,10 @@ function WinCheck(){
     }
     
 }
+function AIturn(){
+    var AIbox = Math.floor(Math.random() * 9);
+    alert(AIbox);
+}
 function playerplace(boxId){
     var player = "X";
     var AI = "O";

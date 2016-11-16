@@ -1,0 +1,12 @@
+.box{
+    border-radius: 25px 25px 25px 25px;
+    -moz-border-radius: 25px 25px 25px 25px;
+    -webkit-border-radius: 25px 25px 25px 25px;
+    border: 0px solid #000000;
+    background-color: #ff0d35;
+    -webkit-box-shadow: 10px 10px 26px -5px rgba(0,0,0,0.75);
+    -moz-box-shadow: 10px 10px 26px -5px rgba(0,0,0,0.75);
+    box-shadow: 10px 10px 26px -5px rgba(0,0,0,0.75);
+    width: 150px;
+    height: 150px;
+}
