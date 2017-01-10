@@ -54,8 +54,11 @@ function WinCheck(){
     
 }
 function AIturn(){
-    var AIbox = Math.floor(Math.random() * 9);
-    alert(AIbox);
+    var AIbox;
+    var list = ["bottomMid", "bottomLeft", "bottomRight", "midLeft", "midMid", "midRight", "upperLeft", "upperMid", "upperRight"];
+    AIbox = Math.floor(Math.random()*10);
+    if(document.getElementById(list[AIbox]).innerHTML != ""){AIturn();}
+    document.getElementById(list[AIbox]).innerHTML = "O";
 }
 function playerplace(boxId){
     var player = "X";
