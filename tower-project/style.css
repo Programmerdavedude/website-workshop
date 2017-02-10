@@ -1,3 +1,12 @@
-body{
-  
+.tower{
+  height: 500px;
+  width: 40px;
+  background-color: red;
+  display: inline-block;
+}
+#towerOne{
+  margin-left: 200px;
+}
+#towerTwo{
+  margin-left: 600px;
 }
