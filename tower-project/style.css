@@ -1,12 +1,43 @@
-.tower{
-  height: 500px;
-  width: 40px;
-  background-color: red;
-  display: inline-block;
+
+html {
+  height: 100%;
+  width: 100%;
 }
-#towerOne{
-  margin-left: 200px;
+body{
+    background-color: grey;
+    z-index: -10;
+    height: 100%;
+    width: 100%;
 }
-#towerTwo{
-  margin-left: 600px;
+.Box{
+    width: 100px;
+    height: 60px;
+    background-color: #eda20b;
+    margin-top: 10px;
+    border: 1px solid black;
+    text-align: center;
+    font-size: 40px;
+    vertical-align: top;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+#TowerOne{
+    margin-top: 0px;
+    background-color: #0306bc;
+    width: 50%;
+    max-height: 100%;
+    min-height: 100%;
+    z-index: 20;
+    position: inherit;
+    padding: 5px;
+}
+#TowerTwo{
+    background-color: green;
+
+}
+#horse{
+    margin-top: -500px;
+    margin-left: 50%;
+    transform: translate(-50%, 0) }
 }
