@@ -5,12 +5,38 @@ html {
 body{
     height: 100%;
     width: 100%;
+    overflow: hidden;
+    padding: 0px;
+    background-color: #147a2a;
 }
 .card{
-    height: 33%;
+    padding: 0px;
+    display: inline-block;
+    background-color: #c1133e;
+    margin-top: 50%;
+    height: 42%;
+    max-height: 42%;
+    text-align: center;
     width: 21%;
-    background-color: red;
-    margin: 10px;
-    max-height: 100%;
-    min-height: 100%;
+    font-size: 650%;
+    transform: translate(-0, -105%);
+}
+#playerCard{
+    margin-left: 25%;
+
+}
+#cpuCard{
+    margin-left: 8%;
+}
+#ayer{
+    background-color: blue;
+    border: 1px solid black;
+    height: 10%;
+    width: 30%;
+    position: relative;
+    top: -30%;
+    left: 50%;
+    transform: translate(-50%, -0);
+    text-align: center;
+    font-size: 310%;
 }
