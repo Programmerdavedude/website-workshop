@@ -39,5 +39,5 @@ body{
 #horse{
     margin-top: -500px;
     margin-left: 50%;
-    transform: translate(-50%, 0) }
+    transform: translate(-50%, 0);
 }
