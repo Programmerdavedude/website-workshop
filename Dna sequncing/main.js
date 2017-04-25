@@ -1,8 +1,35 @@
 function Transribe(){
-	var dnaLegth = document.getElementsByClassName("form-control")[0].value.length;
+	var dnaValue = document.getElementsByClassName("form-control")[0].value;
+	var dnaLegth = dnaValue.length;
+	var dnaArray;
+
 	if(dnaLegth % 3 != 0){
-		alert("please enter a multiple of 3 to achive proper translation");
+
+		console.log("please enter a multiple of 3 to achive proper translation");
+
 		return;
+
 	}
-	alert("good job");
+
+	//remove spaces from string
+	dnaValue = dnaValue.replace(/\s/g, '');
+
+	//make string lower case
+	dnaValue = dnaValue.toLowerCase();
+
+	//convert string to array
+	dnaArray = dnaValue.split('');
+
+	console.log("fs");
+
+	for (i = 0; i < dnaLegth; i++){
+
+		console.log("d");
+
+		if(dnaArray[i] != "a" || dnaArray[i] != "c"|| dnaArray[i] != "t" || dnaArray[i] != "g"){
+
+			console.log("wrong");
+		
+		}
+	}
 }
